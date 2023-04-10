@@ -7,7 +7,6 @@ metadata:
 spec:
   interval: 30s
   path: ./development/releases
-  validation: client
   prune: true
   sourceRef:
     kind: GitRepository
