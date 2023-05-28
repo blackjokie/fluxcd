@@ -20,7 +20,7 @@ metadata:
   namespace: flux-monorepo
 spec:
   interval: 10m0s
-  path: ./development
+  path: ./development/flux-monorepo
   prune: true
   sourceRef:
     kind: GitRepository
