@@ -10,7 +10,7 @@ spec:
   prune: true
   sourceRef:
     kind: GitRepository
-    name: flux-system
+    name: flux-monorepo
 
 ---
 apiVersion: image.toolkit.fluxcd.io/v1beta1
@@ -22,7 +22,7 @@ spec:
   interval: 30s
   sourceRef:
     kind: GitRepository
-    name: flux-system
+    name: flux-monorepo
   git:
     checkout:
       ref:
